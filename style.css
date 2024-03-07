@@ -13,7 +13,7 @@
 body{
     font-family: outfit;
     background-color:hsl(30, 54%, 90%);
-    min-height: 100vh;
+    color: hsl(30, 10%, 34%);
     display: flex;
     align-items: center;
     font-size: 10px;
@@ -28,6 +28,22 @@ h1{
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: #000;
+}
+.p1{
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 18px;
+}
+hr{
+    border-color:hsla(30, 18%, 87%, 0.185);
+    margin-top: 6px;
+    margin-bottom: 5px;
+    
+}
+.linha1{
+    border-color:hsla(30, 18%, 87%, 0.185);
+    margin-top: 14px;
+    margin-bottom: 14px;
 }
 .container{
     max-width: 450px;
@@ -38,25 +54,25 @@ h1{
     background-color: white;
     margin: 1vh;
     padding: 20px;   
-    border-radius: 10px;
+    border-radius: 12px;
 }
 .time{
     background-color: hsl(330, 100%, 98%);
     padding: 15px;
     border-radius: 8px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
 }
 #timelist{
     color: hsl(330, 57%, 32%);
     margin-bottom: 7px;
 }
-.palavra{
+.destaque{
     font-weight: 700;
+    color: hsl(24, 5%, 18%);
 }
 
 ul{
-    color:  hsl(30, 10%, 34%);  
     list-style: none;
 
 }
@@ -77,6 +93,7 @@ ul{
     margin-left: 0.5em;
     width: 2em;
     margin: 3px;
+   
 }
 .ingre{
     font-family: young-serif;
@@ -88,14 +105,29 @@ ol{
     list-style: none;
     counter-reset: li;
 }
-li::before{
+.list3::before{
     content: counter(li);
     color: #7C4A3F;
     display: inline-block;
     width: 2em;
     margin-left: 0.5em;
     font-weight: bold;
+    margin: 3px;
+    text-align: justify;
 }
 li{
     counter-increment: li;
+}
+.kcal{
+    color: #7C4A3F;
+    font-weight: bolder;
+    margin-left: 15em;
+}
+.list4{
+    list-style: none;;
+    margin-left: 20px;
+    
+}
+.p3{
+    margin-bottom: 10px;
 }
