@@ -45,8 +45,8 @@ hr{
 }
 .container{
     max-width: 450px;
-    margin: 0 auto;
- 
+    margin: auto;
+    
 }
 .card{
     background-color: white;
@@ -67,7 +67,7 @@ hr{
 }
 .destaque{
     font-weight: 700;
-    color: hsl(24, 5%, 18%);
+    color: hsl(30, 10%, 34%);
 }
 
 ul{
@@ -116,8 +116,7 @@ ul{
     display: flex;
     width: 100%;
     justify-content: center;
-    gap: 1em;
-    padding: 0 1em 1em;
+    padding: 0 2em 1em;
 }
 .list4 > ul > li > p:last-child {
     color: #854632;
